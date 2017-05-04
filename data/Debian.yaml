@@ -1,0 +1,17 @@
+# data/Debian.yaml
+# generic defaults for Debian-based systems
+---
+dev::packages::package_type: apt
+dev::packages::install: 
+  - build-essential
+  - clojure
+  - debhelper
+  - devscripts
+  - emacs24-nox
+  - manpages-dev
+  - mysql-client
+  - openjdk-8-jdk-headless
+  - redis-tools
+  - strace
+  - zlib1g-dev
+  - xz-utils

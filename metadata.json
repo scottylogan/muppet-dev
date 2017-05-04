@@ -1,0 +1,29 @@
+{
+  "name": "muppet-dev",
+  "version": "0.1.0",
+  "author": "Scotty Logan <scotty@catbert.net>",
+  "summary": "Base configuration for a muppet dev machine",
+  "license": "MIT",
+  "source": "https://github.com/scottylogan/muppet-dev.git",
+  "project_page": "https://github.com/scottylogan/muppet-dev",
+  "issues_url": "https://github.com/scottylogan/muppet-dev/issues",
+
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Darwin",
+      "operatingsystemmajrelease": [ "15", "16" ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemmajrelease": [ "7", "8" ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemmajrelease": [ "14.04", "16.04" ]
+    }
+  ],
+
+  "requirements": [
+    { "name": "puppet", "version_requirement": "4.x" }
+  ]
+}

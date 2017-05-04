@@ -1,0 +1,36 @@
+# data/Darwin.yaml
+# generic defaults for Darwin-based systems
+---
+dev::packages::package_type: brew
+dev::packages::install:
+  - avra
+  - avrdude
+  - awscli
+  - bash-completion
+  - c-kermit
+  - checkstyle
+  - curl
+  - dfu-programmer
+  - dfu-util
+  - gcc5
+  - gettext
+  - git-crypt
+  - go
+  - hub
+  - jpeg
+  - makedepend
+  - maven
+  - node-build
+  - nodenv
+  - openssl
+  - openssl@1.1
+  - packer
+  - packer-completion
+  - pcre
+  - readline
+  - s3cmd
+  - terraform
+  - unrar
+  - vagrant-completion
+  - xz
+  - zlib

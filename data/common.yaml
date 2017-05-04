@@ -1,0 +1,19 @@
+# data/common.yaml
+# really generic defaults
+---
+dev::packages::install:
+  - autoconf
+  - automake
+  - bison
+  - flex
+  - findutils
+  - qemu
+  - git
+  - wget
+  - unzip
+dev::packages::uninstall: []
+lookup_options:
+  dev::packages::install:
+    merge: deep
+  dev::packages::uninstall:
+    merge: deep
