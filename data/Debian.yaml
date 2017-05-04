@@ -4,7 +4,6 @@
 dev::packages::package_type: apt
 dev::packages::install: 
   - build-essential
-  - clojure
   - debhelper
   - devscripts
   - emacs24-nox
